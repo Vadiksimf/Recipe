@@ -18,10 +18,10 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #655A56;
-  background-image: linear-gradient(to right bottom, #b3dbc0, #aa7d31);
-  background-size: cover;
-  background-repeat: no-repeat;
+  color: #000;
+  background-image: url(../img/bg.jpg);
+  background-size: auto;
+  background-repeat: repeat;
   min-height: calc(100vh - 2 * 4vw); }
 
 .container {
@@ -206,7 +206,7 @@ body {
     visibility: visible;
     opacity: 1; }
   .likes__icon {
-    fill: #aa7d31;
+    fill: #FF420E;
     height: 3.75rem;
     width: 3.75rem; }
   .likes__panel {
@@ -372,7 +372,7 @@ body {
     opacity: 1;
     transform: translateY(0); }
   .recipe__love {
-    background-image: linear-gradient(to right bottom, #b3dbc0, #aa7d31);
+    background-image: linear-gradient(to right bottom, #b3dbc0, #FF420E);
     border-radius: 50%;
     border: none;
     cursor: pointer;
